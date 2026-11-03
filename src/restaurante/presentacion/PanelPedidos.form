@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor"><Connection code="Tema.FONDO" type="code"/></Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,80,0,0,2,88"/>
+  </AuxValues>
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelContenido">
+      <Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="Center"/></Constraint></Constraints>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"><Property name="horizontalGap" type="int" value="16"/></Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="panelZonaMenu">
+          <Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="Center"/></Constraint></Constraints>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"><Property name="verticalGap" type="int" value="14"/></Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="panelCategorias">
+              <Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="First"/></Constraint></Constraints>
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout"><Property name="columns" type="int" value="4"/><Property name="horizontalGap" type="int" value="8"/><Property name="rows" type="int" value="1"/></Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="btnHamburguesas"><Properties><Property name="text" type="java.lang.String" value="Hamburguesas"/></Properties><Events><EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHamburguesasActionPerformed"/></Events></Component>
+                <Component class="javax.swing.JButton" name="btnCombos"><Properties><Property name="text" type="java.lang.String" value="Combos"/></Properties><Events><EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCombosActionPerformed"/></Events></Component>
+                <Component class="javax.swing.JButton" name="btnBebidas"><Properties><Property name="text" type="java.lang.String" value="Bebidas"/></Properties><Events><EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBebidasActionPerformed"/></Events></Component>
+                <Component class="javax.swing.JButton" name="btnExtras"><Properties><Property name="text" type="java.lang.String" value="Extras"/></Properties><Events><EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExtrasActionPerformed"/></Events></Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="scrollProductos"><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="Center"/></Constraint></Constraints><Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/><SubComponents>
+              <Container class="javax.swing.JPanel" name="panelProductos"><Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout"><Property name="columns" type="int" value="2"/><Property name="horizontalGap" type="int" value="12"/><Property name="rows" type="int" value="0"/><Property name="verticalGap" type="int" value="12"/></Layout></Container>
+            </SubComponents></Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panelPedido">
+          <Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="After"/></Constraint></Constraints>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"><Property name="verticalGap" type="int" value="12"/></Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="panelEncabezadoPedido"><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="First"/></Constraint></Constraints><Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/><SubComponents>
+              <Component class="javax.swing.JLabel" name="lblPedidoActual"><Properties><Property name="text" type="java.lang.String" value="Pedido actual"/></Properties><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="Before"/></Constraint></Constraints></Component>
+              <Component class="javax.swing.JLabel" name="lblMesa"><Properties><Property name="text" type="java.lang.String" value="Mesa 4"/></Properties><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="After"/></Constraint></Constraints></Component>
+            </SubComponents></Container>
+            <Container class="javax.swing.JPanel" name="panelZonaLineas"><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="Center"/></Constraint></Constraints><Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/><SubComponents>
+              <Container class="javax.swing.JScrollPane" name="scrollCarrito"><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="Center"/></Constraint></Constraints><Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/><SubComponents>
+                <Component class="javax.swing.JTable" name="tablaCarrito"><Properties><Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor"><Table columnCount="3" rowCount="0"><Column editable="false" title="Producto" type="java.lang.Object"/><Column editable="false" title="Cant." type="java.lang.Object"/><Column editable="false" title="Subtotal" type="java.lang.Object"/></Table></Property></Properties></Component>
+              </SubComponents></Container>
+              <Component class="javax.swing.JLabel" name="lblVacio"><Properties><Property name="text" type="java.lang.String" value="Elige productos para comenzar"/></Properties><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="Last"/></Constraint></Constraints></Component>
+            </SubComponents></Container>
+            <Container class="javax.swing.JPanel" name="panelResumen"><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="Last"/></Constraint></Constraints><Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"><Property name="verticalGap" type="int" value="10"/></Layout><SubComponents>
+              <Container class="javax.swing.JPanel" name="lineaTotal"><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="First"/></Constraint></Constraints><Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/><SubComponents>
+                <Component class="javax.swing.JLabel" name="lblTotalTitulo"><Properties><Property name="text" type="java.lang.String" value="Total"/></Properties><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="Before"/></Constraint></Constraints></Component>
+                <Component class="javax.swing.JLabel" name="lblTotal"><Properties><Property name="text" type="java.lang.String" value="$ 0"/></Properties><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="After"/></Constraint></Constraints></Component>
+              </SubComponents></Container>
+              <Container class="javax.swing.JPanel" name="panelAcciones"><Constraints><Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription"><BorderConstraints direction="Last"/></Constraint></Constraints><Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout"><Property name="columns" type="int" value="2"/><Property name="horizontalGap" type="int" value="8"/><Property name="rows" type="int" value="1"/></Layout><SubComponents>
+                <Component class="javax.swing.JButton" name="btnQuitar"><Properties><Property name="text" type="java.lang.String" value="Quitar"/></Properties><Events><EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQuitarActionPerformed"/></Events></Component>
+                <Component class="javax.swing.JButton" name="btnCobrar"><Properties><Property name="text" type="java.lang.String" value="Cobrar"/></Properties><Events><EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCobrarActionPerformed"/></Events></Component>
+              </SubComponents></Container>
+            </SubComponents></Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
